@@ -327,7 +327,7 @@ color: #666;
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 932px) {
     body,html{
         margin: 0;
         padding: 0;
