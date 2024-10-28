@@ -4,8 +4,14 @@
         <title>
             Hambire Jwellery
         </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
-            
+            body,html{
+                margin: 0;
+                padding: 0;
+            }
 
                 .logo-container {
                   align-items: center; /* Vertically centers items */
@@ -197,7 +203,7 @@ border: none;
 
 }
 .about-vertical-data {
-  display: flex;
+  display:flex;
   flex-direction: column;
 }
 
@@ -207,8 +213,133 @@ border: none;
     padding-top: 20px;
 }
 
+.maps-section{
+    text-align: center;
+    padding-top: 40px;
+    width: 100%;
+    
+}
+
+    .history-contanior{
+        display: flex;
+        justify-content: center;
+       
+        text-align: center;
+        background-color: rgb(30, 45, 59);
+       padding-top: 50px;
+       padding-bottom: 50px;
+    }
+
+    .history-record{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
 
 
+    .key{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .value{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .varital-line{
+        width: 1px;
+        height: 60px;
+       background-color: white;
+       padding: 0;
+       margin: 0;
+        
+    }
+
+
+    .contact-section{
+        text-align: center;
+        font-size: 50px;
+    margin-bottom: 10px;
+    color: #333232;
+    line-height: 50PX;
+    }
+
+    .contact-container{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 250px;
+        padding-right: 200px;
+     margin-left: 150px;
+     
+        margin-top: 50px;
+        
+    }
+    
+    .social-media-links{
+        display: flex;
+        justify-content:center;
+       width: 300px;
+       gap: 12px;
+   margin-left: 320px;
+     margin-top: 30px;
+     margin-bottom: 200px;
+    }
+
+    .fa {
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  
+  color: rgb(18, 18, 18);
+
+}
+
+    .gettouch-text, .address-text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 26px;
+        
+    }
+
+    .call-number-contact-info, .address-info {
+
+        line-height: 26px;
+        width: 350px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px; 
+        color: #666;
+
+    }
+ 
+   
+   
+  
+    
 
 
         </style>
@@ -268,6 +399,85 @@ border: none;
       
            
     </section>
+
+
+    <section class="history-contanior">
+        <section class="history-record">
+            <h2 class="key">47+</h2>
+            <p class="value">Years of Experience</p>
+        </section>
+        <hr class="varital-line" />
+        <section class="history-record">
+            <h2 class="key">100K+</h2>
+            <p class="value">Satisfied Customers</p>
+        </section>
+        <hr class="varital-line" />
+        <section class="history-record">
+            <h2 class="key">20+</h2>
+            <p class="value">Expert Artisans</p>
+        </section>
+        <hr class="varital-line" />
+        <section class="history-record">
+            <h2 class="key">10K+</h2>
+            <p class="value">Unique Designs</p>
+        </section>
+    </section>
+    <section>
+        <h1 class="contact-section">
+            CONTACT US
+        </h1>
+        <hr>
+    </section>
+    <section class="maps-section">
+        <iframe
+        width="600"
+        height="450"
+        style="border:0"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDWDaY8_2f1s26SR8ObWhR7YizqcTAYCUA
+          &q=4C8P+V7 Ramayampet, Telangana, India">
+      </iframe>
+    </section>
+<section class="contact-container">
+
+    <section class="get-in-touch-section">
+        <h3 class="gettouch-text">
+            Get in Touch
+        </h3>
+        <p class="call-number-contact-info">For any inquiries, questions or customisation requests, please call us on: +91 9703738824.</p>
+    </section>
+
+    <section >
+        <h3 class="address-text">
+            Address
+        </h3>
+        <p class="address-info">Subhash Road, Ramayampet, 502101. Medak DistrictTelangana, India.</p>
+    </section>
+</section>
+
+
+<section class="social-media-links">
+    
+    
+     <a href="" , target="_blank">
+        <i class="fa fa-facebook"></i>
+     </a>
+
+     <a href="tel:+91 9703738824">
+        <i class="fa fa-phone" style="font-size:30px;color:rgba(4, 102, 16, 0.596)"></i>
+
+     </a>
+
+    <a href="https://www.instagram.com/hambire_jewellery/?igsh=dHJmMWtrYTgwY2E5" , target="_blank">
+        <i class="fa fa-instagram" style="font-size:30px;color:red"></i>
+     </a>
+   
+</section>
+ 
+    
+ 
 </html>
 
 
