@@ -480,7 +480,7 @@ color: #666;
             flex-direction: column;
             justify-content: center;
             background-color: #efefef;
-            margin-bottom: 68px;
+            margin-bottom: 62px;
             text-align: center;
             padding-left: 10px;
             padding-right: 10px;
@@ -605,8 +605,9 @@ color: #666;
                             justify-content:center;
                             width: 300px;
                             gap: 12px;
-                            margin-left: 20px;
+                            margin-left: 0;
                             margin-top: 20px;
+                            padding-left: 0;
                             margin-bottom: 200px;
                             }
                             
@@ -626,7 +627,7 @@ color: #666;
                             /* Facebook */
                             .fa-facebook {
                             
-                            color: rgb(18, 18, 18);
+                            color: rgb(27, 10, 151);
                             
                             }
                             
