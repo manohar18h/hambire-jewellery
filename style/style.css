@@ -41,10 +41,6 @@ body,html{
        margin-top: 0;
        
     }
-    .background-image.mobile {
-        display: none;
-    }
-    
     .note-text{
         font-family: Arial;
         font-size: 20px;
@@ -366,20 +362,15 @@ color: #666;
         vertical-align: middle; 
        
     }
-    .background-image {
-        display: none;
-        
-    }
-     
-    .background-image.mobile {
-        display: block;
-        width: 100%;
-        height: auto;          
+    .baclground-image{
+      
+        width: 100%;      
+        height: 100%;     
        margin-top: 0;
        margin-bottom: 0;
-    }
+
        
-    
+    }
     .note-text{
         font-family: Arial;
         font-size: 20px;
@@ -387,7 +378,7 @@ color: #666;
         line-height: 24px;
         margin-left: 13px;
         color: rgb(104, 57, 25);
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .note-info{
         margin-top: 15px;
@@ -489,7 +480,7 @@ color: #666;
             flex-direction: column;
             justify-content: center;
             background-color: #efefef;
-            margin-bottom: 30px;
+            margin-bottom: 68px;
             text-align: center;
             padding-left: 10px;
             padding-right: 10px;
@@ -529,13 +520,13 @@ color: #666;
                 margin: 0;
                 }
            
+
                 .bridge-image{
                     width: 100%;
                     height: 100%;
-                    padding-top: 10px;
-                    margin: 0;
-                    content: url("./images/bride2.jpg");
+                    padding-top: 20px;
                     }
+                
             
                     .history-contanior{
                         display: flex;
@@ -662,6 +653,3 @@ color: #666;
         
     
 }
-
-
-
