@@ -6,8 +6,8 @@ body,html{
     .logo-container {
       align-items: center; /* Vertically centers items */
       background-color: black;
-      padding-bottom: 0;
-      margin-bottom: 0;
+      padding: 0;
+      margin: 0;
     
     }
     .logostyle{
@@ -372,7 +372,7 @@ color: #666;
        margin-top: 0;
        margin-bottom: 0;
 
-       
+
     }
     .note-text{
         font-family: Arial;
@@ -415,8 +415,8 @@ color: #666;
         padding-right: 15px;
         padding-top: 15px;
         margin-top: 10px;
-        margin-left: 10;
-        margin-right: 5;
+        margin-left: 10px;
+        margin-right: 15px;
         margin-bottom: 0;
         padding-bottom: 0;
         }
@@ -432,6 +432,7 @@ color: #666;
         .service-card img {
         width: 100%;
         height: 200px;
+        padding: 10px;
         border-radius: 8px;
         }
         
