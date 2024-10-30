@@ -325,6 +325,27 @@ font-size: 16px;
 color: #666;
 
 }
+@keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Apply the animation to service cards */
+@media (prefers-reduced-motion: no-preference) {
+    .services-container, .services-section, .service-card, .about-container, .about-textdata, .about-vertical-data, .bridge-image, .history-contanior, .maps-section, .contact-container{
+        opacity: 0; /* Initially hidden */
+        animation: fadeInUp 1s ease-out forwards;
+        /* Trigger animation on scroll */
+        animation-timeline: view();
+        animation-range: 20vh 60vh;
+    }
+}
 
 
 @media screen and (max-width: 600px) {
@@ -446,6 +467,8 @@ color: #666;
         color: #2C3E50;
         margin: 15px 0;
         }
+
+     
         
         .service-card p {
         font-size: 20px;
@@ -657,7 +680,8 @@ color: #666;
                             color: #666;
                             
                             }
-                            
+
+                         
                             
                         
         
