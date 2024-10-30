@@ -418,12 +418,13 @@ color: #666;
         display: flex;
         flex-direction: column;
         justify-content:center;
-        padding-left: 15px;
-        padding-right: 15px;
+        margin-left: 10px;
+        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         padding-top: 15px;
         margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 15px;
+       
         margin-bottom: 0;
         padding-bottom: 0;
         }
@@ -471,7 +472,9 @@ color: #666;
         }
 
 
-        .services-container, .services-section, .service-card, .about-container, .about-textdata, .about-vertical-data, .bridge-image, .history-contanior, .maps-section, .contact-container{
+        .services-container, .services-section, .service-card, .about-container, .about-textdata, .about-vertical-data, 
+        .bridge-image, .history-contanior, .maps-section, .contact-container, .gettouch-text, .call-number-contact-info,
+         .address-text, .address-info, .social-media-links{
 
             opacity: 0;
             transform: translateY(50px);
@@ -479,7 +482,10 @@ color: #666;
         }
         
         /* Apply this when the card is in view */
-        .services-container.in-view , .services-section.in-view , .service-card.in-view , .about-container.in-view , .about-textdata.in-view , .about-vertical-data.in-view , .bridge-image.in-view , .history-contanior.in-view , .maps-section.in-view , .contact-container.in-view {
+        .services-container.in-view , .services-section.in-view , .service-card.in-view , .about-container.in-view ,
+         .about-textdata.in-view , .about-vertical-data.in-view , .bridge-image.in-view , .history-contanior.in-view ,
+          .maps-section.in-view , .contact-container.in-view, .gettouch-text.in-view, .call-number-contact-info.in-view,
+          .address-text.in-view, .address-info.in-view, .social-media-links.in-view {
             
             opacity: 1;
             transform: translateY(0);
