@@ -145,7 +145,26 @@
      </a>
    
 </section>
- 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const cards = document.querySelectorAll(".services-container, .services-section, .service-card, .about-container, .about-textdata, .about-vertical-data, .bridge-image, .history-contanior, .maps-section, .contact-container");
+
+        function animateOnScroll() {
+            cards.forEach(card => {
+                const cardPosition = card.getBoundingClientRect().top;
+                const viewportHeight = window.innerHeight;
+
+                if (cardPosition < viewportHeight - 100) {
+                    card.classList.add("in-view");
+                }
+            });
+        }
+
+        window.addEventListener("scroll", animateOnScroll);
+        animateOnScroll(); // Initial check in case elements are already in view
+    });
+</script>
+
 
 </body>
 </html>
