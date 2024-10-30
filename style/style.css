@@ -473,8 +473,7 @@ color: #666;
 
 
         .services-container, .services-section, .service-card, .about-container, .about-textdata, .about-vertical-data, 
-        .bridge-image, .history-contanior, .maps-section, .contact-container, .gettouch-text, .call-number-contact-info,
-         .address-text, .address-info, .social-media-links{
+        .bridge-image, .history-contanior, .maps-section, .contact-container{
 
             opacity: 0;
             transform: translateY(50px);
@@ -484,8 +483,7 @@ color: #666;
         /* Apply this when the card is in view */
         .services-container.in-view , .services-section.in-view , .service-card.in-view , .about-container.in-view ,
          .about-textdata.in-view , .about-vertical-data.in-view , .bridge-image.in-view , .history-contanior.in-view ,
-          .maps-section.in-view , .contact-container.in-view, .gettouch-text.in-view, .call-number-contact-info.in-view,
-          .address-text.in-view, .address-info.in-view, .social-media-links.in-view {
+          .maps-section.in-view , .contact-container.in-view{
             
             opacity: 1;
             transform: translateY(0);
